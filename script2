@@ -1,5 +1,4 @@
-%%writefile script2.py
-elif n2>1:
-  print('{} is the largest'.format(n2))
-else:
-  print("both are equal")
+n1= int(input('Enter your first number:'))
+n2=int(input('Enter your second number:'))
+if n2>n1:
+  print('{} is the smallest'.format(n1))
