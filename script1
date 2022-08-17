@@ -1,0 +1,6 @@
+%%writefile script1.py
+n1= int(input('Enter your first number:'))
+n2=int(input('Enter your second number:'))
+%%writefile -a script1.py
+if n1>n2:
+  print('{} is the largest'.format(n1))
