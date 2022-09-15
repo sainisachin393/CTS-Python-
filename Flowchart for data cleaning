@@ -13,6 +13,9 @@ b)	Mode: filling all the values with most frequent values.
 c)	Median: filling the values with middle most value.
 d)	Imputation techniques for categorical value:
 One hot encoding: It will assign the categorical value with 0 or 1.
-Step7 : Your data is cleaned. Stop Here!!!
+Step7 : Checking for the outlier 
+Step8: Checking the correlations
+Step9: Scaling the features if any feature is domination
+Step10: stop!!! Y
 
 
